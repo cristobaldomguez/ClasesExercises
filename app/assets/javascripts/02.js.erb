@@ -1,0 +1,5 @@
+$(document).on('page:change', function(){
+	$('.button').on('click', function(){
+		$.backstretch("<%= asset_path 'beers' %>");
+	});
+});

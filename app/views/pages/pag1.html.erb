@@ -1,2 +1,17 @@
+<%= javascript_include_tag '01', 'data-turbolinks-track' => true %>
+
 <h1>Pages#pag1</h1>
 <p>Find me in app/views/pages/pag1.html.erb</p>
+<div class="jumbotron">
+  <h1>Hola Mundo!</h1>
+  <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+</div>
+
+<ul>
+	<% @users.each do |i| %>
+	<li><%= i %></li>
+	<% end %>
+</ul>
+
+
+
